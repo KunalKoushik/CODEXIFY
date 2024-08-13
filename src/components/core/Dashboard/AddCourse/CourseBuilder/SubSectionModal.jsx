@@ -43,7 +43,8 @@ export default function SubSectionModal({
       setValue("lectureDesc", modalData.description)
       setValue("lectureVideo", modalData.videoUrl)
     }
-  }, [])
+  }, )
+  //dependency array is removed
 
   // detect whether form is updated or not
   const isFormUpdated = () => {

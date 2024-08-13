@@ -13,7 +13,7 @@ import { FreeMode, Pagination } from "swiper/modules"
 // import { getAllCourses } from "../../services/operations/courseDetailsAPI"
 import CourseCard from "./CourseCard"
 
-function Course_Slider({ Courses }) {
+function CourseSlider({ Courses }) {
   return (
     <>
       {Courses?.length ? (
@@ -42,4 +42,4 @@ function Course_Slider({ Courses }) {
   )
 }
 
-export default Course_Slider
+export default CourseSlider
